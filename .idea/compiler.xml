@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lemon-api" />
+        <module name="lemon-center" />
+        <module name="lemon-register" />
+        <module name="lemon-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lemon" target="1.8" />
+      <module name="lemon-api" target="1.7" />
+      <module name="lemon-center" target="1.7" />
+      <module name="lemon-eureka" target="1.7" />
+      <module name="lemon-register" target="1.7" />
+      <module name="lemon-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
