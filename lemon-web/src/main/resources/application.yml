@@ -1,15 +1,12 @@
 server:
   port: 8080
-  
 
 feign: 
-  hystrix: 
+  hystrix:
     enabled: true
-
-
 
 eureka:
   client:
     register-with-eureka: false
     service-url: 
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://47.254.34.147:8761/eureka/
