@@ -13,9 +13,9 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableEurekaClient
 @EnableFeignClients(basePackages = {"com.br.lemon"})
 @ComponentScan("com.br.lemon")
-public class Application {
+public class ApplicationClient {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(ApplicationClient.class, args);
     }
 }
