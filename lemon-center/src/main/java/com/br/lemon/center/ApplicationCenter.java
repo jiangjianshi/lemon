@@ -1,4 +1,4 @@
-package com.br.lemon;
+package com.br.lemon.center;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

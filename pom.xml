@@ -18,6 +18,13 @@
         <lombok.version>1.16.18</lombok.version>
     </properties>
 
+    <modules>
+        <module>lemon-web</module>
+        <module>lemon-center</module>
+        <module>lemon-api</module>
+        <module>lemon-register</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -89,12 +96,27 @@
         </plugins>
     </build>
 
-    <modules>
-        <module>lemon-web</module>
-        <module>lemon-center</module>
-        <module>lemon-api</module>
-        <module>lemon-register</module>
-    </modules>
-
-
+    <repositories>
+        <repository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
