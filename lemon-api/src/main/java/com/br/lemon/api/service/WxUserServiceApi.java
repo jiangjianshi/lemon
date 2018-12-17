@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by bairong on 2018/12/16.
  */
-@FeignClient(value = "SPRINGCLOUD-LEMON",fallbackFactory=DeptClientServiceFallbackFactory.class)
+@FeignClient(value = "springcloud-lemon",fallbackFactory=DeptClientServiceFallbackFactory.class)
 public interface WxUserServiceApi {
 
     @RequestMapping(value = "/test/get", method = RequestMethod.GET)
