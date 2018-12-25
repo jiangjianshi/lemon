@@ -21,7 +21,7 @@ public class TestServiceImpl implements TestService{
 
     @Override
     public List<WxUser> test(Integer uid) {
-
+        System.out.println("----------------------------uid = "+uid);
         return wxUserMapper.selectAll(null, null);
     }
 }
